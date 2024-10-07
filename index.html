@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>U.E PATUJU</title>
+    <link rel="stylesheet" href="styles.css">
+   
+</head>
+<body>
+
+    <header>
+        <div class="navbar">
+            <img src="/imagenes/logo.png" alt="Logo">
+            <h1>U.E. PATUJU</h1>
+            <div class="menu">
+                <span class="menu-toggle">☰</span>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="historia.html">Historia</a></li>
+                        <li><a href="#">Classes</a></li>
+                        <li><a href="#">Teachers</a></li>
+                        <li><a href="#">Gallery</a></li>  
+                        <li><a href="#">Contact</a></li>
+                        <li><button class="join-class">Join Class</button></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navMenu = document.querySelector('nav ul');
+
+        menuToggle.addEventListener('click', () => {
+            navMenu.style.display = navMenu.style.display === 'block' ? 'none' : 'block';
+        });
+    </script>
+    <div>
+        <h2>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quod veritatis praesentium modi perferendis distinctio sapiente molestiae! Dolores, veniam, ipsa aspernatur laboriosam, dolorem illo aperiam non vitae facilis quae adipisci.
+        </h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt blanditiis, distinctio esse quaerat rem maxime quis pariatur provident laborum. Quasi eius maiores iste earum amet. Nobis veniam ullam officiis ex!</p>
+
+    </div>
+
+</body>
+</html>
